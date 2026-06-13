@@ -3,7 +3,16 @@
 <img src="docs/provenance_mirror_og.png" alt="Provenance Mirror" width="500">
 
 **A content-authenticity *verifier* — not a deepfake *detector*.**
-Sister tool to [Measurement Mirror](https://github.com/bhyi4/measure-mirror); same DNA, different domain.
+One mirror of the family — same DNA, different domain:
+
+| Tool | Audits | Question |
+|---|---|---|
+| 🪞 [measure-mirror](https://github.com/bhyi4/measure-mirror) | AI evaluation claims | Is the **claim** honest? |
+| 🪪 [action-mirror](https://github.com/bhyi4/action-mirror) | Agent behaviour | Who did what, **provably**? |
+| 🔎 **provenance-mirror** (you are here) | Content authenticity | **Is the origin proven?** |
+| 👁 [mirror-witness](https://github.com/bhyi4/mirror-witness) | Cross-operator witness board | Who else **witnessed** it? |
+
+The four together = the 🪞🔎🪪 [Mirror Stack](https://github.com/bhyi4/measure-mirror/tree/main/stack).
 
 > Zero training · Deterministic · Zero dependencies (Python 3.10+ stdlib only).
 
