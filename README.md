@@ -1,6 +1,8 @@
 # 🔎 Provenance Mirror
 
-<img src="docs/provenance_mirror_og.png" alt="Provenance Mirror" width="500">
+<p align="center">
+  <img src="docs/provenance_mirror_og.png" alt="Provenance Mirror" width="500">
+</p>
 
 **A content-authenticity *verifier* — not a deepfake *detector*.**
 One mirror of the family — same DNA, different domain:

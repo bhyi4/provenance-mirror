@@ -1,6 +1,8 @@
 # 🔎 Provenance Mirror (출처거울)
 
-<img src="docs/provenance_mirror_og.png" alt="Provenance Mirror" width="500">
+<p align="center">
+  <img src="docs/provenance_mirror_og.png" alt="Provenance Mirror" width="500">
+</p>
 
 **콘텐츠 진위 *검증기* — 딥페이크 *탐지기*가 아닙니다.**
 거울 패밀리의 한 거울 — 같은 DNA, 다른 도메인:
