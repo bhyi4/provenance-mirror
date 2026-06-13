@@ -1,5 +1,7 @@
 # 🔎 Provenance Mirror
 
+<img src="docs/provenance_mirror_og.png" alt="Provenance Mirror" width="500">
+
 **A content-authenticity *verifier* — not a deepfake *detector*.**
 Sister tool to [Measurement Mirror](https://github.com/bhyi4/measure-mirror); same DNA, different domain.
 

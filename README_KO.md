@@ -1,5 +1,7 @@
 # 🔎 Provenance Mirror (출처거울)
 
+<img src="docs/provenance_mirror_og.png" alt="Provenance Mirror" width="500">
+
 **콘텐츠 진위 *검증기* — 딥페이크 *탐지기*가 아닙니다.**
 [Measurement Mirror](https://github.com/bhyi4/measure-mirror)의 자매 도구 — 같은 DNA, 다른 도메인.
 
