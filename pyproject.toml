@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "provenance-mirror"
+version = "0.1.0"
+description = "Content authenticity verifier + leak tracing — prove origin, trace leaks (not a detector)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Mother Seara", email = "ruinbl82@gmail.com" }]
+keywords = [
+  "provenance", "authenticity", "c2pa", "watermark", "leak-tracing",
+  "traitor-tracing", "integrity", "ai-safety", "deepfake",
+]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+pm = "provmirror.pm:_cli"
+
+[tool.setuptools]
+packages = ["provmirror"]
