@@ -55,6 +55,18 @@ That last row is the whole point: an unsigned real photo is `UNVERIFIED`, never
 4. **Sealed ledger** — every verdict is SHA-256 chain-hashed (tamper-evident).
 5. **Input-driven** — only the signals actually present in the file are read.
 
+> **Honest reach (read before judging the scope).** Provenance Mirror verifies *signals that
+> already exist on the content* — C2PA manifests, generator metadata, declared watermarks, our
+> own seals. Most content scraped from the open web carries **none** of these, so it correctly
+> returns `UNVERIFIED` — and `UNVERIFIED` is **not** a failure or a "fake" call, it is the honest
+> "no signal" answer (principle 2). The practical consequence: Provenance Mirror is most useful in
+> environments where provenance signals are *present* — sealed pipelines, C2PA / Content-Credentials
+> sources, and content you sealed yourself — **not** as a universal "is this web data tampered?"
+> oracle for the raw open web. It does not, and by design **never claims to**, "block tampering of
+> arbitrary scraped data": that is detection in an arms race (principle 1), which this tool
+> deliberately refuses. Within its signal scope it is deterministic and tamper-evident; outside it,
+> it honestly says it doesn't know.
+
 ---
 
 ## Signals
