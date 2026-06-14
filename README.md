@@ -16,6 +16,8 @@ One mirror of the family — same DNA, different domain:
 
 The four together = the 🪞🔎🪪 [Mirror Stack](https://github.com/bhyi4/measure-mirror/tree/main/stack).
 
+💬 **[Discussions](https://github.com/orgs/mirror-stack/discussions)** — questions · ideas · independent reproductions welcome.
+
 > Zero training · Deterministic · Zero dependencies (Python 3.10+ stdlib only).
 
 **[📖 Full Signal Guide →](docs/GUIDE.md)** · [한국어 README](README_KO.md)
